@@ -14,6 +14,8 @@ The work required deep engagement with ArviZ’s faceting managers ([PlotCollect
 
 ## My Work
 
+During the bonding period (May 8 – June 2), after reviewing differences between `arviz-plots` and `arviz`, we listed down several features which were missing in `arviz-plots` and several new features which were required. Following discussions with my mentors, we redefined and finalized a new prioritized list of tasks for the coding phase. Our aim to complete tasks as many as possible from the list during the coding phase.
+
 1. [Initial Pair Focus Plot](https://github.com/arviz-devs/arviz-plots/pull/276)
 - Implemented initial version of new `pair_focus_plot` function for exploring relationships between a focus variable and several others.
 
