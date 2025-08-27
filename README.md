@@ -109,4 +109,6 @@ Working with [Osvaldo Martin](https://github.com/aloctavodia), [Oriol Abril Pla]
 
 Overall, GSoC 2025 gave me the opportunity to make meaningful contributions to ArviZ, grow my technical and collaboration skills, and deepen my understanding of Bayesian visualization.
 
+More detailed blog of my jouney in GSoC 2025 with ArviZ can be found [here](https://the-broken-keyboard.github.io/posts/gsoc/)
+
 
