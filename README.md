@@ -88,12 +88,24 @@ Since work was going on in `plot_dist`, so we decided to pause the work on `circ
 
 ## Challenges Faced, Learnings & Conclusion
 
-This project was both technically and conceptually challenging. The hardest parts included:
+This project was both technically and conceptually challenging. The most difficult parts included:
 
-- Understanding data reshaping in `xarray.DataTree` to support plots like `parallel_plot` and `plot_lm`.
-- Understanding plotting managers (`PlotCollection`, `PlotMatrix`) which were acting as brain of the system.
-- Ensuring consistent API design and behavior across multiple plotting functions.
-- Picking color-blind friendly color cycle which satisfies the contrast score to against dark background.
+- **Understanding data reshaping in `xarray.DataTree` to support plots like `parallel_plot` and `plot_lm`**
+  - A deep understanding and precise manipulation of the data structure were crucial to effectively use the plotting managers.
+  - Different structures led to different ways of calling plotting functions, which could lead to completely different outputs or errors.  
+
+- **Understanding plotting managers (`PlotCollection`, `PlotMatrix`), which served as the brain of the system**
+  - Grasping the concepts of aesthetic mapping and visual elements was essential for effectively leveraging these managers.
+  - Plotting managers handle complex aspects like aesthetic mapping and subplot arrangement, allowing individual plot functions to focus on rendering specific visual elements. This design provides fine-grained control over every visual element and its aesthetics, making it one of the most challenging yet important aspects to learn at the initial stages.  
+
+- **API design and user experience**
+  - Ensuring consistent behavior across multiple plotting functions was a significant challenge.
+  - Consistent API was crucial for user experience, especially when dealing with complex plots and multiple backends.  
+
+- **Visualization design and accessibility**
+  - Choosing a color-blind–friendly color cycle that also met contrast requirements against dark backgrounds.  
+  - Managing overlaying of elements in `plot_parallel`.  
+  - Handling different types of labels and their rotations effectively.  
 
 Through this experience, I learned:
 - How to navigate and extend a large, modular codebase.
