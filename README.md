@@ -100,7 +100,7 @@ This project was both technically and conceptually challenging. The most difficu
 
 - **API design and user experience**
   - Ensuring consistent behavior across multiple plotting functions was a significant challenge.
-  - Consistent API was crucial for user experience, especially when dealing with complex plots and multiple backends.  
+  - Consistent API was crucial for user experience, while dealing with complex plots and multiple backends.  
 
 - **Visualization design and accessibility**
   - Choosing a color-blind–friendly color cycle that also met contrast requirements against dark backgrounds.  
